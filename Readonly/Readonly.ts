@@ -12,4 +12,4 @@ const todo: MyReadonly<Todo> = {
     description: 'this is description'
 }
 
-todo.title = 'asdf'
+// todo.title = 'asdf'
