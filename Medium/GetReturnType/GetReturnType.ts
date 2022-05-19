@@ -8,3 +8,5 @@ const fn = (v: boolean) => {
         return 2
 }
 type Ak = MyReturnType<typeof fn> // 应推导出 "1 | 2"
+
+type Bk = ReturnType<typeof fn>
